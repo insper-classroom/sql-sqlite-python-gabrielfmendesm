@@ -69,7 +69,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Query**:
      ```sql
       SELECT * FROM vgsales_pbi
-      WHERE genre == 'RPG' or genre == 'Strategy' and year > '2005';
+      WHERE genre == 'Role-Playing' or genre == 'Strategy' and year > '2005';
      ```
    - **Resultado**
    ![alt text](image6.png)
