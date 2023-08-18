@@ -23,51 +23,56 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Enunciado**: Liste todos os jogos do gênero "Ação" que foram lançados após 2010.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi 
+      WHERE genre == 'Action' AND year > '2010';
      ```
    - **Resultado**
-    
+    ![alt text](image2.png)
 
 
 3. **Jogos mais recentes**:
    - **Enunciado**: Liste os 5 jogos mais recentes lançados.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi
+      ORDER BY year DESC;
      ```
    - **Resultado**
+   ![alt text](image3.png)
     
-
 
 4. **Jogos mais antigos**:
    - **Enunciado**: Liste os 5 jogos mais antigos.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi
+      ORDER BY year ASC;
      ```
    - **Resultado**
-    
-
+   ![alt text](image4.png)
+ 
 
 5. **Jogos de Aventura com mais vendas na América do Norte**:
    - **Enunciado**: Quais são os 3 jogos do gênero "Aventura" com as maiores vendas na América do Norte?  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi
+      WHERE genre == 'Adventure'
+      ORDER BY NA_sales DESC;
      ```
    - **Resultado**
+   ![alt text](image5.png)
     
 
-
-	 
 6. **Jogos de RPG ou Estratégia lançados após 2005**:
    - **Enunciado**: Liste todos os jogos dos gêneros "RPG" ou "Strategy" lançados após 2005.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi
+      WHERE genre == 'RPG' or genre == 'Strategy' and year > '2005';
      ```
    - **Resultado**
-    
+   ![alt text](image6.png)
 
 
 
