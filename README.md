@@ -12,8 +12,8 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Enunciado**: Liste todos os jogos disponíveis para a plataforma Xbox One. (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-    SELECT * FROM vgsales_pbi 
-    WHERE platform == 'XOne';
+      SELECT * FROM vgsales_pbi 
+      WHERE platform == 'XOne';
      ```
    - **Resultado**
     ![alt text](image.png)
