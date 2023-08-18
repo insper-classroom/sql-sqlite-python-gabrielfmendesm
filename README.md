@@ -16,7 +16,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       WHERE platform == 'XOne';
      ```
    - **Resultado**
-    ![alt text](image.png)
+    ![alt text](imagens/image.png)
 
 
 2. **Jogos de Ação após 2010**:
@@ -27,7 +27,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       WHERE genre == 'Action' AND year > '2010';
      ```
    - **Resultado**
-    ![alt text](image2.png)
+    ![alt text](imagens/image2.png)
 
 
 3. **Jogos mais recentes**:
@@ -38,7 +38,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       ORDER BY year DESC;
      ```
    - **Resultado**
-   ![alt text](image3.png)
+   ![alt text](imagens/image3.png)
     
 
 4. **Jogos mais antigos**:
@@ -49,7 +49,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       ORDER BY year ASC;
      ```
    - **Resultado**
-   ![alt text](image4.png)
+   ![alt text](imagens/image4.png)
  
 
 5. **Jogos de Aventura com mais vendas na América do Norte**:
@@ -61,7 +61,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       ORDER BY NA_sales DESC;
      ```
    - **Resultado**
-   ![alt text](image5.png)
+   ![alt text](imagens/image5.png)
     
 
 6. **Jogos de RPG ou Estratégia lançados após 2005**:
@@ -72,7 +72,7 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
       WHERE genre == 'Role-Playing' or genre == 'Strategy' and year > '2005';
      ```
    - **Resultado**
-   ![alt text](image6.png)
+   ![alt text](imagens/image6.png)
 
 
 
